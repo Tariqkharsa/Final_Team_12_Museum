@@ -10,5 +10,5 @@ Hosting Web App:
 1) sign up to Heroku
 2) Use Heroku and link it to GitHub or, use Heroku git and link it to a local directory
 
-  The files are divided into folders like reports, employees, etc. Under each folder, there is the php code that runs the database's entities. There is also a vendor folder that is used to setup the php mailer for sending emails through amazonses. Different html/css files were used for different categorical pages. 
+  The files are divided into folders like reports, employees, etc. Under each folder, there is the php code that runs the database's queries regarding that specific entity. At the start of each file, there is the connection section that connects the backend php to the MySql database hosted on AWS. There is also a vendor folder that is used to setup the php mailer for sending emails through amazonses. Different html/css files were used for different categorical pages. 
 
