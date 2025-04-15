@@ -2,7 +2,8 @@
 session_start();
 $dbServername = "team12.copftkcel1k2.us-east-1.rds.amazonaws.com";
 $dbUser = "admin";
-$dbPass = "Group12,museum";
+$dbPass = "Group12,museum";4r4i4jri4\
+    //hack
 $dbName = "FinalTeam12";
 
 $connect = mysqli_connect($dbServername, $dbUser, $dbPass, $dbName) or die("Unable to Connect to '$dbServername'");
